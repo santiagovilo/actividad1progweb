@@ -1,0 +1,84 @@
+/*Alumno: Santiago Viloria, CID: 30.139.486, Seccion: N1013*/
+h1 {
+	text-align: center; /*Esta parte establece que todos los elementos <h1> en el documento se alineen al centro*/
+}
+
+ /*Esta parte establece que el formulario se muestre como un contenedor de columnas, con los elementos alineados al centro y un margen superior de 50 pixeles*/
+form {               
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  /*Esta parte establece el estilo las etiquetas de los elementos del formulario*/
+  label {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  /*Esta parte establece el estilo de los elementos de entrada de tipo "number" y "text"*/
+  input[type="number"], input[type="text"] {
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    width: 300px;
+    max-width: 80%;
+  }
+  
+  /*Esta parte establece el estilo de los botones de tipo "submit"*/
+  button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #0099ff;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  /*Esta parte establece que cuando el cursor se situa sobre un boton de tipo "submit" el color de fondo cambie*/
+  button[type="submit"]:hover {
+    background-color: #0066cc;
+  }
+
+  /*Esta parte establece el estilo de las tablas*/
+  table {
+    border-collapse: collapse;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 16px;
+    width: 100%;
+  }
+  
+  /*Este parte establece el estio del encabezado de la tabla*/
+  thead {
+    background-color: #0099ff;
+    color: #fff;
+  }
+  
+  /*Esta parte establece que las celdas de encabezado y de datos de la tabla tengan un estilo determinado*/
+  th, td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ccc;
+  }
+  
+  /*Esta parte establece que las celdas de encabezado de la tabla tengan un peso de fuente en negrita*/
+  th {
+    font-weight: bold;
+  }
+  
+  /*Esta parte establece que las filas pares de la tabla tengan un color de fondo determinado*/
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  /*Esta parte establece que los parrafos tengan un margen y tamaño de fuente determinados*/
+  p {
+    margin-top: 20px;
+    font-size: 16px;
+  } 
+  

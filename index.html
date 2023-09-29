@@ -1,0 +1,18 @@
+<!-- Alumno: Santiago Viloria, CID: 30.139.486, Seccion: N1013 -->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Procesamiento de tarjetas de datos</title> <!-- Este elemento define el titulo de la pagina, que se mostrara en la pestaña del navegador -->
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style.css"> <!-- Enlazamos un archivo CSS externo llamado "style.css" para aplicar estilos al documento HTML -->
+</head>
+<body>
+	<h1>Bienvenido, programa de procesamiento de tarjetas de datos</h1> <!--  Este elemento define un encabezado de nivel 1 que muestra el mensaje --> 
+	<form method="post" action="procesar.php"> <!-- Este elemento define un formulario que enviara los datos ingresados a un archivo PHP llamado "procesar.php" utilizando el metodo POST -->
+		<label>Cantidad de tarjetas a introducir:</label> <!-- Este elemento define una etiqueta de texto que indica al usuario que tipo de informacion debe ingresar -->
+		<input type="number" name="cantidad" min="1" required> <!-- Este elemento define un campo de entrada numerico y el atributo "required" indica que este campo es obligatorio -->
+		<button type="submit">Procesar</button><br> <!-- Este elemento define un boton de envio que enviara los datos ingresados -->
+		<a href="../index.html" style="float: right; background-color: #ff0000; color: #fff; font-size: 16px; font-family: Arial, sans-serif; padding: 9px 15px; border-radius: 5px; text-decoration: none;">Volver</a> <!-- Este elemento define un enlace que redirige al usuario a la pagina "index.html" cuando se hace clic en el dicho enlace tiene estilos personalizados definidos -->
+	</form>
+</body>
+</html>
